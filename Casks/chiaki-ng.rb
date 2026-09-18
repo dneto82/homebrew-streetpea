@@ -14,6 +14,8 @@ cask "chiaki-ng" do
     url "https://github.com/streetpea/chiaki-ng/releases"
   end
 
+  depends_on :macos
+
   app "chiaki-ng.app"
 
   postflight_steps do
